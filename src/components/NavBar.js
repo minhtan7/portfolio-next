@@ -53,9 +53,9 @@ const NavBar = () => {
         <header
             className="relative z-10 flex items-center justify-between w-full px-32 py-8 font-medium dark:text-light lg:px-16 md:px-12 sm:px-8 ">
             <button className="flex-col justify-center items-center hidden  lg:!flex" onClick={handleClick} >
-                <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-out h-0.5 w-6 rounded-sm -translate-y-0.5 ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-out h-0.5 w-6 rounded-sm  ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
                 <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'opacity-100'}`}></span>
-                <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-out h-0.5 w-6 rounded-sm translate-y-0.5 ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
+                <span className={`bg-dark dark:bg-light block transition-all duration-300 easy-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
             </button>
             <div className="flex items-center justify-between w-full lg:hidden">
                 <nav>
